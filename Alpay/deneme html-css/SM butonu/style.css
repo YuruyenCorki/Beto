@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #f1f1f1;
+}
+.social-media{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.social-media div{
+    display: inline;
+}
+.social-media div a{
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    background-color: #2e3c50;
+    font-size: 40px ;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.social-media .face a:hover{
+    background-color: #4376B2;
+}
+.social-media .insta a:hover{
+    background-color: purple;
+}
+.social-media .X a:hover{
+    background-color: #5b84b2;
+}
+.social-media .google a:hover{
+    background-color: orangered;
+}
+.social-media .youtube a:hover{
+    background-color: red;
+}
+.social-media a i{
+    transition: all 0.5s ;
+}
+.social-media .insta a:hover i{
+    transform: scale(1.6) rotate(360deg);
+}
+.social-media .face a:hover i{
+    transform: scale(1.6) rotate(360deg);
+}
+.social-media .X a:hover i{
+    transform: scale(1.6) rotate(360deg);
+}
+.social-media .google a:hover i{
+    transform: scale(1.6) rotate(360deg);
+}
+.social-media .youtube a:hover i{
+    transform: scale(1.6) rotate(360deg);
+}

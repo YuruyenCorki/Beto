@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.katil-butonu{
+    
+    color: #3ea6ff;
+    background-color: black;
+    border: 1px solid #3ea6ff;
+    text-transform: uppercase;
+    transition: width .5s; /* gerçekleşme süresi */
+    margin-right: 150px;
+    margin-top: 50px;
+    vertical-align: top; /* kutuyu tek başına ayır */
+    padding: 50px;
+}
+.katil-butonu:hover{
+    width: 250px;
+    color: black;
+    background-color: #3ea6ff;
+    box-shadow: 2px 3px 1px black;
+}
+.ozellestir-butonu{
+    width: 102px;
+    height: 37px;
+    color: black;
+    background-color: #3ea6ff;
+    border: none;
+    padding-left: 22px;
+    border-radius: 2px;
+    cursor: pointer; /* imleç üzerine gelince değiştir */
+    text-transform: capitalize; /* tüm harfler büyük */
+}

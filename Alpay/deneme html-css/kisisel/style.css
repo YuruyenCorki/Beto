@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.container{
+    width: 50%;
+    margin: 100px auto;
+    background-color: burlywood;
+    height: 70vh;
+}
+
+.img{
+    text-align: center;
+}
+img{
+    margin-top: 40px;
+    border-radius: 150px;
+}
+h1{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 8px;
+    color: white;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    letter-spacing: 6px;
+    color: white;
+}
+p{
+    font-size: 20px;
+    color: white;
+
+    text-align: justify;
+}
+.p{
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;    
+}

@@ -1,0 +1,12 @@
+img{
+    width: 250px;
+    height: 500px;
+    object-fit: contain ; /* ortala ve sığdır */
+    /* object-fit: cover;  tamamını sığdır */ 
+    object-position: right; /* konumumu ayarla contain iken */
+    /* object fit cover durumda iken fotoğrafın taraflarını göstermek için
+        object-position left veya right
+    */
+    background-image: url("https://jasonferruggia.com/wp-content/uploads/2011/09/arnold-back.jpg"); /* arka planı komple resim yapmak için */
+    border: 5px solid black;
+}

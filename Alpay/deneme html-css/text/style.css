@@ -1,0 +1,23 @@
+p{
+    font-size: 22px;
+    color: blueviolet;
+    font-weight: bold;  /* yazı kalınlığı */
+    font-style: italic;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    text-align: justify;
+    line-height: 2; /* satırlar arası boşluk */
+    letter-spacing: 10px; /* harfler arası boşlup */
+    text-indent: 20px; /* paragraf boşluğu */ 
+}
+.bir{
+    width: 50%;
+}
+.iki{
+    width: 50%;
+}
+.container{
+    display: flex;
+}
